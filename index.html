@@ -4,93 +4,211 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <!-- nav bar -->
-    <nav>
-        <ul>
-            <li>HOME</li>
+     <div class="burger">
+      <i class="fa-solid fa-bars nav_icon"></i>
+     </div>
+    <!-- <main> the main content -->
+      <section class="home" id="about">
+          <div class="main_container">
+            <div class="home_content">
+              <h1>Akinterinwa <span class="color"> Oluwanifemi</span></h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ut cupiditate vel, et doloremque excepturi aliquid sapiente dicta mollitia exercitationem?</p>
+              <button class="home_btn" type="button">click me</button>
+            </div>
+            <div class="profile_img">
+              <img src="./media/my_img.jpg" alt="my_img">
+            </div>
+          </div>
+      </section>
+      
+          <!-- nav bar -->
+      <div class="nav">
+        <div class="nav_content">
+          <ul>
+            <a href="#"><li>HOME</li></a>
             <a href="#about"><li>ABOUT</li></a>
             <a href="#work"><li>WORK</li></a>
             <a href="#resume"><li>RESUME</li></a>
             <a href="#contact"><li>CONTACT</li></a>
         </ul>
-    </nav>
-    <!-- <main> the main content -->
-      <section id="about">
-        <h1> ABOUT ME</h1>
-        <h2>NAME:  AKINTERINWA OLUWANIFEMI EBENEZER</h2>
-        <img src="./media/my_img.jpg" style="height:360px; width:270px" alt="my_image">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nesciunt sit non voluptatum. <br> Blanditiis aliquam voluptatum eligendi quos, quidem consectetur! Veniam maxime necessitatibus <br> asperiores est enim alias, neque repellendus, aliquid quisquam eos sed sequi expedita atque ullam  <br> voluptatem maiores,corporis vel? Quo beatae recusandae obcaecati corrupti quidem  asperiores <br> rem voluptatibus!</p>
-       <audio controls src="/media/Mike_Abdul_-_Baba_Ese_Ft_Yoruba_Mass_Choir_CeeNaija.com_.mp3"></audio>
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/Kf319Gh2voc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </section>
-
+        </div>
+      </div>
+   
+      <!-- what i do -->
       <section id="work">
-        <h1>WHAT I DO</h1>
-        <H4>HERE ARE LISTS OF WHAT I DO</H4>
-        <ol>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem psum dolor sit amet.</li>
-            <li>Lorem psum dolor sit amet.</li>
-            <li>Lorem psum dolor sit amet.</li>
-            <li>Lorem psum dolor sit amet.</li>
-        </ol>
+        <div class="work_heading">
+          <div class="work_svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
+              <path fill="#191a20" fill-opacity="1" d="M0,160L120,144C240,128,480,96,720,90.7C960,85,1200,107,1320,117.3L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
+            </svg>
+          </div>
+          <h2>Case Studies</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, soluta? Ab, culpa voluptatum? Porro minima quos dicta, error similique hic.</p>
+        </div>
+
+        <div class="main_work">
+          <div class="work_merge">
+            <div class="work_content">
+              <h4 class="work_desc">Fintech</h4>
+              <h2>My work</h2>
+              <p class="work_parag">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+              <button class="work_btn">view case studies <i class="fa-solid fa-angle-right"></i></button>
+            </div>
+            <div class="work_img">
+              <img src="https://pimages.toolbox.com/wp-content/uploads/2023/05/17141122/Shutterstock_2079263023.jpg" alt="">
+            </div>
+          </div>
+
+                   <!-- for html is just for the middle mobile csreen alone -->
+
+            <div class=" to_display_middle_content">
+              <div class="checking">
+                <div class="work_content middle">  
+                  <h4 class="work_desc">Fintech</h4>
+                  <h2>My work</h2>
+                  <p class="work_parag">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                  <button class="work_btn">view case studies <i class="fa-solid fa-angle-right"></i></button>
+                </div> 
+                <div class="work_img">
+                  <img src="https://www.codecademy.com/resources/blog/wp-content/uploads/2022/12/What-Is-Pair-Programming--1.png" alt="">
+                </div>
+              </div>
+            
+            </div>
+
+             <!-- this is the end of it -->
+
+          <div class="work_merge to_hide_middle_content">
+            <div class="work_img">
+              <img src="https://www.forbes.com/advisor/wp-content/uploads/2022/06/Computer_programmer.jpeg.jpg" alt="">
+            </div>
+            <div class="work_content middle">  
+              <h4 class="work_desc">Fintech</h4>
+              <h2>My work</h2>
+              <p class="work_parag">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+              <button class="work_btn">view case studies <i class="fa-solid fa-angle-right"></i></button>
+            </div>  
+          </div>
+
+          <div class="work_merge">
+            <div class="work_content">
+              <h4 class="work_desc">Fintech</h4>
+              <h2>My work</h2>
+              <p class="work_parag">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+              <button class="work_btn">view case studies <i class="fa-solid fa-angle-right"></i></button>
+            </div>
+            <div class="work_img">
+              <img src="https://www.ctvnews.ca/content/dam/ctvnews/en/images/2020/11/12/work-from-home-1-5186089-1627385675007.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <svg style="margin: -6px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
+          <path fill="#87878761" fill-opacity="0.79" d="M0,160L120,144C240,128,480,96,720,90.7C960,85,1200,107,1320,117.3L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+        </svg>
+
+        
+      
       </section>
 
       <section id="resume">
-        <h1>RESUME</h1>
-        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fuga rerum placeat eligendi magni. <br> Molestiae hic unde vitae neque beatae vel error quibusdam, deserunt quas minima quasi aspernatur. <br> Consequuntur, magnam</h4>
+        <div class="work_heading">
+          <h2>RESUME</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fuga rerum placeat eligendi magni. Molestiae hic unde vitae neque beatae vel error quibusdam, deserunt quas minima quasi aspernatur. Consequuntur, magnam</p>
+        </div>
         <table title="resume" border="4">
         <tr>
           <th>FRONT-END</th>
           <th>BACK-END</th>
           <th>DATABASE</th>
+          <th>DESIGNS</th>
         </tr>
         <tr>
           <td>HTML</td>
           <td>NODE</td>
           <td>MYSQL</td>
+          <td>CANVA</td>
         </tr>
         <tr>
           <td>CSS</td>
           <td>C++</td>
           <td>NOSQL</td>
+          <td>FIGMA</td>
         </tr>
         <tr>
             <td>JS</td>
             <td>PHYTON</td>
             <td>MONGODB</td>
+            <td>ADOBE</td>
           </tr>
       </table>
       </section>
 
-      <section id="contact">
-        <h1>MY CONTACT INFO</h1>
-        <form>
-            <label>Name:</label>
-            <input type="text" name="Full Name" placeholder=".oluwanifemi"> <br><br>
-            <label>Age:</label>
-            <input type="number" placeholder="age" min="18" max="100"> <br><br>
-            <label>Email:</label>
-            <input type="email" name="Email" placeholder="nf@gmail.com"> <br><br>
-            <label>Password</label> <br>
-            <input type="password" name="password"> <br>
-            <label>Gender:</label> <br>
-            <select name="Gender"><br>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-            </select>
-            <br>
-            <input type="radio" name="Gender">Male
-            <input type="radio" name="Gender">Female <br><br>
-            <button type="submit">CLICK TO SUBMIT</button>
-        </form>
+      <section id="contact" style="margin-bottom: 43px;">
+        <div class="work_heading">
+          <h1>GET IN TOUCH</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <form>
+              <label>Name:</label>
+              <input type="text" name="Full Name" placeholder=".oluwanifemi"><br>
+               <label>Age:</label>
+              <input type="number" placeholder="age" min="18" max="100"><br>
+              <label>Email:</label>
+              <input type="email" name="Email" placeholder="nf@gmail.com"><br>
+              <label>Password</label>
+              <input type="password" name="password"><br>
+              <label>Gender:</label>
+              <select name="Gender">
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+              </select><br>
+              <label for="note">Note:</label>
+              <textarea id="note" name="note">message</textarea><br>
+              <button type="submit">CLICK TO SUBMIT</button> 
+          </form>
+        </div>
+        
       </section>
     </main>
-    <footer style="background: rgba(0, 0, 0, 0.132);">
+
+    <div class="audio" style="text-align: center;">
+      <audio controls src="./media/Mike_Abdul_-_Baba_Ese_Ft_Yoruba_Mass_Choir_CeeNaija.com_.mp3"></audio>
+    </div>
+
+
+    <div class="media" style="text-align: center;">
+      <iframe width="700" height="343" src="https://www.youtube.com/embed/Kf319Gh2voc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div class="scroll_up">
+      <a href="#">
+        <i class="fa-solid fa-arrow-up fa-beat scroll_icon"></i>
+      </a>
+     </div>
+
+    <footer>
+      <div class="social_icons">
+        <a href="#">
+         <i class="fab fa-twitter fa-2x"></i>   
+        </a>
+        <a href="#">
+         <i class="fab fa-facebook fa-2x"></i>   
+        </a>
+        <a href="#">
+         <i class="fab fa-instagram fa-2x"></i>   
+        </a>
+        <a href="#">
+         <i class="fab fa-github fa-2x"></i>   
+        </a>
+    </div>
        <h1>copyright @GOMYCODE.com</h1>
        <p>akinterinwa oluwanifemi ebenezer</p>
     </footer>
+    <script src="https://kit.fontawesome.com/bcab4b309b.js" crossorigin="anonymous"></script>
 </body>
 </html>
